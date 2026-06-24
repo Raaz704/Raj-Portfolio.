@@ -825,3 +825,326 @@ body.dark .menu-toggle{
     }
 
 }
+
+
+/* ==========================
+   COMPLETE DARK MODE FIX
+========================== */
+
+body.dark{
+    background:#0f0f0f;
+    color:#ffffff;
+}
+
+/* Header */
+
+body.dark .header{
+    background:#111;
+    border-bottom:1px solid #2b2b2b;
+}
+
+/* Logo */
+
+body.dark .logo{
+    color:#fff;
+}
+
+/* Navigation */
+
+body.dark nav ul li a{
+    color:#fff;
+}
+
+body.dark nav ul li a:hover{
+    color:#d1d1d1;
+}
+
+/* Hero Text */
+
+body.dark .subtitle{
+    color:#cfcfcf;
+}
+
+body.dark .hero-content p{
+    color:#d1d1d1;
+}
+
+/* Hero Image */
+
+body.dark .hero-image img{
+    border:8px solid #2b2b2b;
+}
+
+/* Main Buttons */
+
+body.dark .btn{
+    background:#fff;
+    color:#111;
+}
+
+body.dark .btn:hover{
+    background:#ddd;
+}
+
+body.dark .btn-outline{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+body.dark .btn-outline:hover{
+    background:#fff;
+    color:#111;
+}
+
+/* Project Button */
+
+body.dark .project-btn{
+    background:#fff;
+    color:#111;
+}
+
+body.dark .project-btn:hover{
+    background:#ddd;
+}
+
+/* Skills */
+
+body.dark .skill-card{
+    background:#181818;
+    color:#fff;
+    border:1px solid #2b2b2b;
+}
+
+/* Projects */
+
+body.dark .project-card{
+    background:#181818;
+    color:#fff;
+    border:1px solid #2b2b2b;
+}
+
+body.dark .project-card p{
+    color:#d1d1d1;
+}
+
+/* About Section */
+
+body.dark .about-preview{
+    background:#0f0f0f;
+}
+
+body.dark .about-preview p{
+    color:#d1d1d1;
+}
+
+/* Timeline */
+
+body.dark .timeline-item{
+    background:#181818;
+}
+
+/* Resume */
+
+body.dark .resume-box{
+    background:#181818;
+}
+
+/* Contact */
+
+body.dark .contact-info,
+body.dark .contact-form,
+body.dark .contact-form-box{
+    background:#181818;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea,
+body.dark .contact-form-box input,
+body.dark .contact-form-box textarea{
+    background:#111;
+    color:#fff;
+    border:1px solid #2b2b2b;
+}
+
+body.dark .contact-note,
+body.dark .contact-heading p,
+body.dark .info-box p{
+    color:#d1d1d1;
+}
+
+/* Social Icons */
+
+body.dark .socials a{
+    color:#fff;
+}
+
+body.dark .social-links a{
+    background:#fff;
+    color:#111;
+}
+
+/* Footer */
+
+body.dark footer{
+    border-top:1px solid #2b2b2b;
+}
+
+body.dark footer p{
+    color:#d1d1d1;
+}
+
+/* Theme Toggle Button */
+
+body.dark #theme-toggle{
+    background:#fff;
+    color:#111;
+}
+
+/* Mobile Menu */
+
+body.dark nav{
+    background:#181818;
+}
+
+/* Hamburger */
+
+body.dark .menu-toggle{
+    color:#fff;
+}
+
+/* Inputs Focus */
+
+body.dark input:focus,
+body.dark textarea:focus{
+    border-color:#fff;
+}
+
+/* Smooth Transition */
+
+body,
+.header,
+nav,
+.project-card,
+.skill-card,
+.btn,
+.btn-outline,
+.project-btn,
+footer,
+.contact-info,
+.contact-form,
+.contact-form-box{
+    transition:0.3s ease;
+}
+
+/* ==========================
+   FOOTER FIX
+========================== */
+
+footer{
+    border-top:1px solid #cfcfcf;
+}
+
+body.dark footer{
+    border-top:1px solid #2b2b2b;
+}
+
+/* ==========================
+   THEME TOGGLE BUTTON
+========================== */
+
+body.dark #theme-toggle{
+    background:#fff;
+    color:#111;
+}
+
+body.dark #theme-toggle i{
+    color:#111;
+}
+
+/* ==========================
+   SCROLL TO TOP BUTTON
+========================== */
+
+/* Light Mode */
+#topBtn{
+    background:#111;
+    color:#fff;
+    border:none;
+}
+
+/* Dark Mode */
+body.dark #topBtn{
+    background:#fff !important;
+    color:#111 !important;
+    border:none;
+}
+
+body.dark #topBtn i{
+    color:#111 !important;
+}
+
+/* Hover */
+#topBtn:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
+
+/* ==========================
+   BUTTON FIX
+========================== */
+
+body.dark .btn{
+    background:#fff;
+    color:#111;
+}
+
+body.dark .btn:hover{
+    background:#ddd;
+}
+
+body.dark .btn-outline{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+body.dark .btn-outline:hover{
+    background:#fff;
+    color:#111;
+}
+
+body.dark .project-btn{
+    background:#fff;
+    color:#111;
+}
+
+body.dark .project-btn:hover{
+    background:#ddd;
+}
+
+/* ==========================
+   CARD FIX
+========================== */
+
+body.dark .project-card,
+body.dark .skill-card,
+body.dark .timeline-item,
+body.dark .resume-box,
+body.dark .contact-info,
+body.dark .contact-form,
+body.dark .contact-form-box{
+    background:#181818;
+    border:1px solid #2b2b2b;
+}
+
+/* ==========================
+   TEXT FIX
+========================== */
+
+body.dark .subtitle,
+body.dark .about-preview p,
+body.dark .contact-note,
+body.dark .contact-heading p,
+body.dark .info-box p,
+body.dark .project-card p{
+    color:#d1d1d1;
+}
