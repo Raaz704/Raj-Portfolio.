@@ -215,3 +215,16 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
 });
+
+// Default Dark Theme
+
+if(localStorage.getItem("theme") === null){
+    document.body.classList.add("dark");
+    localStorage.setItem("theme","dark");
+}
+else{
+    document.body.classList.toggle(
+        "dark",
+        localStorage.getItem("theme") === "dark"
+    );
+}
